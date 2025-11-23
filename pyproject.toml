@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "envertech_local"
+description = "Inverter discovery and communication library for envertech inverters"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name="Kaiserdragon2", email="kaiserdragon2@proton.me" }
+]
+dependencies = [
+'netifaces',
+]
