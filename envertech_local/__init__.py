@@ -5,7 +5,6 @@ from .commands import build_inverter_request, build_inverter_break_command, buil
 from .utils import check_cs, parse_module_data
 from .api import get_inverter_data, stream_inverter_data
 
-__version__ = "0.1.0"
 __all__ = [
     "InverterClient",
     "discover_devices_async",

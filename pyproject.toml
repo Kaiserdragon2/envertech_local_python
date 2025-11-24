@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 77.0.3"]
+requires = ["setuptools >= 77.0.3", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -15,3 +15,9 @@ authors = [
 dependencies = [
 'netifaces',
 ]
+
+[project.urls]
+Homepage = "https://github.com/Kaiserdragon2/envertech_local_python"
+Repository = "https://github.com/Kaiserdragon2/envertech_local_python.git"
+Issues = "https://github.com/Kaiserdragon2/envertech_local_python/issues"
+
